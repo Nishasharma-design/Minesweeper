@@ -3,7 +3,7 @@ public class MineCounter {
     public static int surroundingMines(char[][] grid, int row, int col) {
         int surroundingMinesCount = 0;
 
-        for (int i = -1; i < 1; i++) {
+        for (int i = -1; i <= 1; i++) {
             for (int j = -1; j <= 1; j++) {
                 if ( i == 0 && j == 0) continue;
 
